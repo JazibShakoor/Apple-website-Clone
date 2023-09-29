@@ -1,0 +1,278 @@
+.headerWapper {
+  background-color: rgba(250, 250, 252);
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: block;
+}
+
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.logoBlock {
+  width: 50px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: -8px;
+}
+
+.logo {
+  width: 13px;
+  height: 13px;
+}
+
+.logo img {
+  display: inline-block;
+  width: 100%;
+}
+
+.navbar {
+  position: unset;
+  width: 100%;
+}
+
+.headerContentWapper {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-collapse {
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-nav {
+  width: 97%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "AppleFontStyle";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  font-size: 13px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.nav-link .store:hover .hoverListWapper {
+  display: block;
+}
+
+.dropdown-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn,
+.btn:hover {
+  background-color: unset;
+  font-size: 16px;
+  font-weight: 700;
+  border: 0;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+
+.react-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 11%;
+}
+
+.react-icons a {
+  color: rgb(59, 63, 67);
+}
+
+.react-icons button {
+  border: none;
+  background-color: transparent;
+}
+
+.innerWapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.drop {
+  display: none;
+}
+
+.dropdown:hover .drop {
+  display: block;
+}
+
+.drop1 {
+  display: none;
+}
+
+.blurs {
+  top: 240px;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+}
+
+.blur0 {
+  position: absolute;
+  left: -230px;
+  width: 1346px;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+}
+
+.blur {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+}
+
+.dropdown1:hover .drop1 {
+  display: block;
+}
+
+.drop2 {
+  display: none;
+}
+
+.dropdown2:hover .drop2 {
+  display: block;
+}
+
+.drop3 {
+  display: none;
+}
+
+.dropdown3:hover .drop3 {
+  display: block;
+}
+
+.drop4 {
+  display: none;
+}
+
+.dropdown4:hover .drop4 {
+  display: block;
+}
+.drop5 {
+  display: none;
+}
+
+.dropdown5:hover .drop5 {
+  display: block;
+}
+.drop6 {
+  display: none;
+}
+
+.dropdown6:hover .drop6 {
+  display: block;
+}
+.drop7 {
+  display: none;
+}
+
+.dropdown7:hover .drop7 {
+  display: block;
+}
+.drop8 {
+  display: none;
+}
+
+.dropdown8:hover .drop8 {
+  display: block;
+}
+.drop9 {
+  display: none;
+}
+
+.dropdown9:hover .drop9 {
+  display: block;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .navbar-nav {
+    gap: 2px;
+    align-items: flex-start;
+    margin-left: 35px;
+  }
+
+  .nav-link {
+    font-size: 28px;
+    font-family: "AppleFontStyleBold";
+    font-weight: 600;
+  }
+
+  .headerContentWapper {
+    justify-content: space-between;
+  }
+
+  .innerWapper {
+    width: 169px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  .navbar {
+    width: auto;
+  }
+
+  .react-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 66%;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    left: 0px;
+    top: 75px;
+    z-index: 90;
+    text-align: start;
+  }
+
+  .navbar-toggler {
+    width: 40px;
+    height: 35px;
+  }
+
+  .navbar-toggler-icon {
+    width: 1em;
+    transform: translate(-10%, -8%);
+  }
+
+  .button-block {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .headerWapper {
+    height: 56px;
+  }
+}

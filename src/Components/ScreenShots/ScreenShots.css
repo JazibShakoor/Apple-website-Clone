@@ -1,0 +1,30 @@
+.screenShots .screenshotsH1 {
+  font-family: "AppleFontStyleBold";
+  font-weight: 500;
+  font-size: 20px;
+  margin: 14px 0;
+  color: #1d1d1f;
+  position: unset;
+}
+
+.screenShots .screenshotsH1::after {
+  content: none;
+  position: unset;
+}
+
+.scrollImage {
+  overflow: auto;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scrollWapper {
+  margin-right: 17px;
+}
+
+.scrollWapper img {
+  border-radius: 12px;
+  border: 1px solid rgb(209, 216, 228);
+}

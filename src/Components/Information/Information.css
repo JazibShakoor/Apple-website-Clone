@@ -1,0 +1,80 @@
+.informationWapper {
+  border: 1px solid rgb(214, 214, 214);
+  border-left: 0;
+  border-right: 0;
+  padding-bottom: 20px;
+}
+
+.informationWapper h2 {
+  font-family: "AppleFontStyleBold";
+  font-weight: 800;
+  font-size: 20px;
+  color: black;
+}
+
+.informationWapper span,
+p {
+  color: rgb(152, 152, 154);
+  font-family: "AppleFontStyle";
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0;
+}
+
+.informationWapper h6 {
+  color: rgb(113, 113, 113);
+  font-family: "AppleFontStyleBold";
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0;
+}
+
+.compatibility {
+  margin-top: 15px;
+}
+
+.iPod {
+  margin-top: 15px;
+}
+
+.copyRight,
+.language,
+.rate {
+  margin-top: 15px;
+}
+
+.finance {
+  color: rgb(58, 145, 213);
+}
+
+.price {
+  margin-top: 86px;
+}
+
+.appLinks {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 28px;
+}
+
+.appLinks a:hover {
+  text-decoration: underline;
+}
+
+.appLinks a {
+  font-size: 13.5px;
+  margin-right: 15px;
+  color: rgb(30, 129, 207);
+}
+
+@media screen and (min-width: 320px) {
+  .appLinks {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768pxpx) {
+  .appLinks {
+    display: block;
+  }
+}

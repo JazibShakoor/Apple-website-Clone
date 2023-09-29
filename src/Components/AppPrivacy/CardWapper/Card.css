@@ -1,0 +1,22 @@
+.card .imgAndText2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+  left: 8px;
+  margin-top: 12px;
+}
+
+.card .paraMargin {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  width: 140px;
+  column-gap: 10%;
+  font-size: 20px;
+}

@@ -1,0 +1,71 @@
+.appListWapper {
+  margin-top: 20px;
+  border-top: 1px solid rgb(214, 214, 214);
+  padding-top: 20px;
+}
+
+.appList {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.appListWapper .mainHeading {
+  margin-bottom: 10px;
+}
+
+.appListWapper .mainHeading a {
+  font-size: 14px;
+}
+
+.moreApps {
+  width: 170px;
+}
+
+.moreApps:nth-child(1) {
+  position: relative;
+  top: -11px;
+}
+
+.textWapper {
+  position: relative;
+  left: 11px;
+}
+
+.textWapper a {
+  width: 135px;
+  font-family: "AppleFontStyle";
+  font-weight: 400;
+  font-size: 13.5px;
+  color: rgb(104, 104, 104);
+  text-align: start;
+}
+
+.moreApps:nth-child(1) .appsWappers .appImage img {
+  border-color: rgb(229, 229, 229);
+  border: 1px solid rgb(229, 229, 229);
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  width: 163px !important;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/* .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */

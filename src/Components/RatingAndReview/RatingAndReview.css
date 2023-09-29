@@ -1,0 +1,206 @@
+.ratingAndReview {
+  border: 1px solid rgb(214, 214, 214);
+  border-left: 0;
+  border-right: 0;
+  padding: 20px 12px;
+}
+
+.mainHeading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mainHeading h2 {
+  margin-top: 0;
+  font-family: "AppleFontStyleBold";
+  font-weight: 800;
+  font-size: 20px;
+  color: black;
+}
+
+.mainHeading a {
+  border: none;
+  background-color: transparent;
+  color: rgb(178, 212, 239);
+  font-family: "AppleFontStyle";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.flexContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ratingAndReview p {
+  font-family: "AppleFontStyle";
+  font-weight: 400;
+  font-size: 16px;
+  color: #636366;
+  margin: 0;
+}
+
+.ratingAndReview span {
+  font-family: "AppleFontStyleBold";
+  font-weight: 800;
+  font-size: 60px;
+  color: black;
+  margin-right: 3px;
+}
+
+small {
+  font-family: "AppleFontStyle";
+  font-weight: 400;
+  font-size: 13px;
+  color: #636366;
+  position: relative;
+  top: 14px;
+}
+
+.ratingBlock {
+  margin-top: 6px;
+}
+
+.starWapper {
+  position: relative;
+  color: rgb(165, 165, 169);
+  font-size: 10px;
+}
+
+.starWapper::before {
+  content: "";
+  display: block;
+  width: 245px;
+  color: pink;
+  position: absolute;
+  left: 8px;
+  border: 1px solid pink;
+  left: 65px;
+  top: 8px;
+}
+
+.starWapper::after {
+  content: "";
+  display: block;
+  width: 210px;
+  color: black;
+  position: absolute;
+  left: 8px;
+  border: 1px solid black;
+  left: 65px;
+  top: 8px;
+}
+
+.starWapper:nth-child(2) {
+  position: relative;
+  left: 10px;
+  top: -4px;
+}
+
+.starWapper:nth-child(2)::before,
+.starWapper:nth-child(2)::after {
+  left: 55px;
+}
+
+.starWapper:nth-child(2)::after {
+  width: 20px;
+}
+
+.starWapper:nth-child(3) {
+  position: relative;
+  left: 21px;
+  top: -8px;
+}
+
+.starWapper:nth-child(3)::before,
+.starWapper:nth-child(3)::after {
+  left: 45px;
+}
+
+.starWapper:nth-child(3)::after {
+  width: 5px;
+}
+
+.starWapper:nth-child(4) {
+  position: relative;
+  left: 31px;
+  top: -12px;
+}
+
+.starWapper:nth-child(4)::before,
+.starWapper:nth-child(4)::after {
+  left: 35px;
+}
+
+.starWapper:nth-child(4)::after {
+  width: 2px;
+}
+
+.starWapper:nth-child(5) {
+  position: relative;
+  left: 41px;
+  top: -16px;
+}
+
+.starWapper:nth-child(5)::before,
+.starWapper:nth-child(5)::after {
+  left: 25px;
+}
+
+.starWapper:nth-child(5)::after {
+  width: 20px;
+}
+
+@media screen and (min-width: 320px) {
+  small {
+    display: none;
+  }
+
+  .flexContainer {
+    flex-wrap: wrap;
+  }
+
+  .ratingAndReview .flexContainer p {
+    position: relative;
+    left: 21px;
+    top: -12px;
+  }
+
+  .starWapper::before {
+    width: 148px;
+  }
+
+  .starWapper::after {
+    width: 121px;
+  }
+
+  .ratingBlock {
+    position: relative;
+    top: 15px;
+    left: -16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  small {
+    display: block;
+  }
+
+  .flexContainer {
+    flex-wrap: nowrap;
+  }
+
+  .ratingAndReview p {
+    position: unset;
+  }
+
+  .starWapper::before {
+    width: 245px;
+  }
+
+  .starWapper::after {
+    width: 210px;
+  }
+}

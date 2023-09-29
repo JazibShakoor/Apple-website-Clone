@@ -1,0 +1,114 @@
+.descriptionWrapper {
+  margin: 30px 0;
+  padding-bottom: 40px;
+  border: 1px solid rgb(214, 214, 214);
+  border-left: 0;
+  border-right: 0;
+  position: relative;
+}
+
+.descriptionWrapper p {
+  margin-top: 20px;
+  font-family: "AppleFontStyle";
+
+  font-weight: 400;
+  color: rgb(133, 133, 134);
+  width: 640px;
+}
+
+.descriptionWrapper button {
+  border: none;
+  background-color: transparent;
+  color: rgb(98, 167, 222);
+  font-size: 14px;
+  position: absolute;
+  top: 59%;
+  right: 35%;
+}
+
+.hideContent ul li {
+  font-family: "AppleFontStyle";
+
+  font-weight: 400;
+  color: rgb(133, 133, 134);
+  width: 640px;
+  margin: 8px 0;
+}
+
+.headingWapper h5,
+.headingListWapper h5,
+.disclosure h5 {
+  font-family: "AppleFontStyle";
+  font-weight: 400;
+  color: rgb(133, 133, 134);
+  margin-top: 15px;
+}
+
+.headingListWapper h6 {
+  font-family: "AppleFontStyle";
+  font-weight: 400;
+
+  color: rgb(133, 133, 134);
+}
+
+.headingListWapper ul {
+  padding: 0;
+  list-style: none;
+}
+
+.headingListWapper ul li {
+  margin: 15px 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .descriptionWrapper p {
+    width: auto;
+  }
+
+  .hideContent ul li {
+    width: auto;
+  }
+
+  .descriptionWrapper p {
+    font-size: 13px;
+  }
+
+  .descriptionWrapper button {
+    top: 69%;
+    right: 14%;
+  }
+
+  .hideContent ul li {
+    font-size: 13px;
+  }
+
+  .headingWapper h5,
+  .headingListWapper h5,
+  .disclosure h5 {
+    font-size: 14px;
+  }
+
+  .headingListWapper h6 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .descriptionWrapper p {
+    font-size: 14.7px;
+  }
+
+  .hideContent ul li {
+    font-size: 14.7px;
+  }
+
+  .headingWapper h5,
+  .headingListWapper h5,
+  .disclosure h5 {
+    font-size: 16px;
+  }
+
+  .headingListWapper h6 {
+    font-size: 15px;
+  }
+}

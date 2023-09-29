@@ -1,0 +1,113 @@
+.block {
+  border-bottom: 1px solid rgb(214, 214, 214);
+  border-left: 0;
+  border-right: 0;
+  padding: 20px 12px;
+  padding-bottom: 30px;
+}
+
+.block:nth-child(1) {
+  padding-bottom: 0;
+}
+
+.block h1 {
+  margin-top: 17px;
+  margin-bottom: 17px;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.024em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Apple WebExp Icons Custom",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.modal-dialog {
+  position: relative;
+  top: 21px;
+}
+
+.modal-content {
+  width: 600px !important;
+  height: 650px !important;
+  background-color: white;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+}
+
+.block .lable {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 13px;
+}
+
+.block .imageBlock svg {
+  fill: #0070c9;
+  width: 30px;
+  height: 30px;
+}
+
+.contantBlock {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.block p {
+  font-size: 13px;
+  line-height: 1.38462;
+  font-weight: 400;
+  letter-spacing: -0.005em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Apple WebExp Icons Custom",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.block p a {
+  color: #0070c9;
+  text-decoration: none;
+  margin-left: 8px;
+}
+
+.block p a:hover {
+  text-decoration: underline;
+}
+
+.block .space {
+  margin: 25px 0;
+}
+
+.block h1 {
+  margin-top: 9px;
+  color: #111;
+  font-size: 15px;
+  line-height: 1.33338;
+  font-weight: 600;
+  letter-spacing: -0.016em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Apple WebExp Icons Custom",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.contantBlock p span {
+  padding-top: 7px;
+  padding-bottom: 5px;
+  color: #111;
+  font-size: 13px;
+  line-height: 1.38462;
+  font-weight: 400;
+  letter-spacing: -0.005em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Apple WebExp Icons Custom",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.contantBlock svg {
+  font-size: 22px;
+}
+
+.block h4 {
+  padding-top: 9px;
+  font-size: 15px;
+  line-height: 1.33338;
+  font-weight: 600;
+  letter-spacing: -0.016em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Apple WebExp Icons Custom",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

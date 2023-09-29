@@ -1,0 +1,71 @@
+.hoverListWapper1 {
+  background-color: rgba(250, 250, 252);
+  height: 400px;
+  padding-top: 30px;
+  position: absolute;
+  display: block;
+  top: 37px;
+  left: 0px;
+  width: 1346px;
+  z-index: 90;
+}
+
+.hoverListWapper1::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: aliceblue;
+  filter: blur(8px);
+}
+
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.listItems h6 {
+  color: rgba(110, 110, 115, 1);
+  font-size: 13px;
+  font-family: "AppleFontStyle";
+  font-weight: 400;
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.listItems ul {
+  list-style: none;
+  padding: 0;
+  position: relative;
+}
+
+.listItems ul li a {
+  font-family: "AppleFontStyle";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: black;
+  text-decoration: none;
+}
+
+.listItems .links li a {
+  font-family: "AppleFontStyle";
+  font-size: 13px;
+  font-weight: 600;
+  color: rgb(128, 128, 129);
+  line-height: 2;
+}
+
+.gap {
+  margin-top: 20px;
+}
+
+.thirdCol {
+  position: relative;
+  left: -36px;
+}

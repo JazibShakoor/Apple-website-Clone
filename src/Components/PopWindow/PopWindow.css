@@ -1,0 +1,46 @@
+.modal {
+  background-color: rgba(225, 225, 225, 0.6);
+}
+
+.modal-dialog {
+  width: 600px !important;
+  margin: 0 auto;
+}
+
+.modal-content {
+  width: 600px;
+  height: 281px;
+  overflow: hidden;
+  background-color: rgb(248, 248, 248);
+  border-radius: 8px;
+  border: none;
+  padding: 16px;
+  padding-top: 0px;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+}
+
+.modal-header {
+  padding: 0;
+  padding-top: 8px;
+  position: relative;
+}
+
+.modal-header button {
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  font-size: 12px;
+  z-index: 90;
+}
+
+@media screen and (min-width: 320px) {
+  .cover {
+    width: 286px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cover {
+    width: unset;
+  }
+}

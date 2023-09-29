@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "AppleFontStyle";
+  src: url("/src/AppleFontStyle/SFPRODISPLAYREGULAR.OTF");
+}
+
+@font-face {
+  font-family: "AppleFontStyleBold";
+  src: url("/src/AppleFontStyle/SFPRODISPLAYBOLD.OTF");
+}
+
+@font-face {
+  font-family: "AppleFontStyleMedium";
+  src: url("/src/AppleFontStyle/SFPRODISPLAYMEDIUM.OTF");
+}

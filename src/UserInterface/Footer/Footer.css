@@ -1,0 +1,118 @@
+.footerWapper {
+  background-color: rgb(245, 245, 247);
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+.footerWapper p {
+  color: rgb(139, 139, 143);
+  font-family: "AppleFontStyle";
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.footerWapper a {
+  color: rgb(95, 158, 221);
+  margin: 0 5px;
+}
+
+.footerWapper .flex {
+  margin-top: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerWapper .flex .box2 {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerWapper .box1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 590px;
+}
+
+.footerWapper .flex .box2 {
+  margin-bottom: 0;
+}
+
+.footerWapper .flex .box2 li {
+  border-right: 1px solid grey;
+  height: 15px;
+}
+
+.footerWapper .flex .box2 li:nth-child(4) {
+  border-right: none;
+}
+
+.footerWapper .flex .box2 li a {
+  font-size: 12px;
+  padding: 0 6px;
+  color: rgb(85, 85, 88);
+  position: relative;
+  top: -6px;
+  text-decoration: none;
+}
+
+.footerWapper .flex .box2 li a:hover {
+  text-decoration: underline;
+}
+
+.footerWapper .countryName a {
+  color: rgb(85, 85, 88);
+  font-size: 12px;
+  font-family: "ApppleFontStyle";
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.footerWapper .countryName a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 320px) {
+  .footerWapper .flex {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .footerWapper .flex .box1 {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .footerWapper .flex .box2 {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footerWapper .flex .box1 {
+    width: 590px;
+  }
+
+  .footerWapper .flex {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .footerWapper .flex .box1 {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .footerWapper .flex .box2 {
+    flex-wrap: nowrap;
+  }
+}

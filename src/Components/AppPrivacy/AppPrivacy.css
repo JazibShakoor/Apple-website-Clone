@@ -1,0 +1,145 @@
+.appPrivacy {
+  margin-top: 15px;
+}
+
+.appPrivacy .mainHeading h2 {
+  font-family: "AppleFontStyleBold";
+  font-weight: 800;
+  font-size: 20px;
+  color: black;
+}
+
+.appPrivacy .mainHeading button {
+  border: none;
+  background-color: transparent;
+  color: rgb(178, 212, 239);
+  font-family: "AppleFontStyle";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.appPrivacy .paraWidth {
+  margin-top: 15px;
+  width: 943px;
+  font-size: 15px;
+  color: rgb(174, 174, 175);
+  margin-bottom: 15px;
+}
+
+.appPrivacy .paraWidth a {
+  color: rgb(85, 155, 212);
+  font-size: 15px;
+}
+
+.appPrivacy .paraWidth .amana {
+  position: unset;
+  color: rgb(71, 71, 72);
+  font-weight: 500;
+  font-family: "AppleFontStyleMedium";
+}
+
+.appPrivacy p {
+  font-family: "AppleFontStyle";
+  font-weight: 400;
+  font-size: 14px;
+  color: #636366;
+  line-height: 1.3;
+}
+
+.appPrivacy .card {
+  text-align: center;
+  padding-top: 30px;
+  height: 260px;
+  border-radius: 25px;
+}
+
+.appPrivacy .card h5 {
+  margin-top: 15px;
+  font-family: "AppleFontStyleBold";
+  font-weight: 800;
+  color: black;
+  font-size: 16px;
+}
+
+.appPrivacy .card .image svg {
+  fill: #0070c9;
+  width: 32px;
+  height: 32px;
+}
+
+.imgAndText {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.imgAndText svg {
+  width: 25px !important;
+  height: 22px !important;
+  margin-right: 10px;
+}
+
+.cardBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottomP {
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-bottom: 28px;
+  color: rgb(102, 102, 104);
+}
+
+.bottomP span a {
+  color: rgb(145, 193, 232);
+  font-size: 13px;
+  position: relative;
+  left: 5px;
+}
+
+@media screen and (min-width: 320px) {
+  .appPrivacy .paraWidth {
+    width: auto;
+  }
+
+  .cardBlock {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  /* .cardBlock .card {
+    height: 318px;
+  } */
+
+  .cardBlock .card:nth-child(2) {
+    margin-top: 15px;
+  }
+
+  .cardBlock .card:nth-child(3) {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cardBlock .card {
+    height: 260px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .appPrivacy .paraWidth {
+    width: 943px;
+  }
+
+  .cardBlock {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .cardBlock .card:nth-child(2) .cardBlock .card:nth-child(3) {
+    margin-top: 0px;
+  }
+}
